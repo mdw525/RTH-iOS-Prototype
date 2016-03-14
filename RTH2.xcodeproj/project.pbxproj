@@ -14,6 +14,12 @@
 		83DEBDF51C96857300A0B202 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83DEBDF31C96857300A0B202 /* LaunchScreen.storyboard */; };
 		83DEBE001C96857300A0B202 /* RTH2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DEBDFF1C96857300A0B202 /* RTH2Tests.swift */; };
 		83DEBE0B1C96857300A0B202 /* RTH2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DEBE0A1C96857300A0B202 /* RTH2UITests.swift */; };
+		83DEBE221C968CBA00A0B202 /* Learn1.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DEBE181C968CBA00A0B202 /* Learn1.png */; };
+		83DEBE231C968CBA00A0B202 /* Listen1.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DEBE1A1C968CBA00A0B202 /* Listen1.png */; };
+		83DEBE241C968CBA00A0B202 /* Locations1.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DEBE1C1C968CBA00A0B202 /* Locations1.png */; };
+		83DEBE251C968CBA00A0B202 /* Map1.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DEBE1E1C968CBA00A0B202 /* Map1.png */; };
+		83DEBE261C968CBA00A0B202 /* Text1.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DEBE201C968CBA00A0B202 /* Text1.png */; };
+		83DEBE291C96950700A0B202 /* Audio.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DEBE271C96950700A0B202 /* Audio.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		83DEBE061C96857300A0B202 /* RTH2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTH2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83DEBE0A1C96857300A0B202 /* RTH2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTH2UITests.swift; sourceTree = "<group>"; };
 		83DEBE0C1C96857300A0B202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83DEBE191C968CBA00A0B202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = RTH2/Base.lproj/Learn1.png; sourceTree = "<group>"; };
+		83DEBE1B1C968CBA00A0B202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = RTH2/Base.lproj/Listen1.png; sourceTree = "<group>"; };
+		83DEBE1D1C968CBA00A0B202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = RTH2/Base.lproj/Locations1.png; sourceTree = "<group>"; };
+		83DEBE1F1C968CBA00A0B202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = RTH2/Base.lproj/Map1.png; sourceTree = "<group>"; };
+		83DEBE211C968CBA00A0B202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = RTH2/Base.lproj/Text1.png; sourceTree = "<group>"; };
+		83DEBE281C96950700A0B202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = RTH2/Base.lproj/Audio.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,12 @@
 		83DEBDDE1C96857300A0B202 = {
 			isa = PBXGroup;
 			children = (
+				83DEBE271C96950700A0B202 /* Audio.png */,
+				83DEBE181C968CBA00A0B202 /* Learn1.png */,
+				83DEBE1A1C968CBA00A0B202 /* Listen1.png */,
+				83DEBE1C1C968CBA00A0B202 /* Locations1.png */,
+				83DEBE1E1C968CBA00A0B202 /* Map1.png */,
+				83DEBE201C968CBA00A0B202 /* Text1.png */,
 				83DEBDE91C96857300A0B202 /* RTH2 */,
 				83DEBDFE1C96857300A0B202 /* RTH2Tests */,
 				83DEBE091C96857300A0B202 /* RTH2UITests */,
@@ -229,9 +247,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83DEBE221C968CBA00A0B202 /* Learn1.png in Resources */,
 				83DEBDF51C96857300A0B202 /* LaunchScreen.storyboard in Resources */,
+				83DEBE291C96950700A0B202 /* Audio.png in Resources */,
+				83DEBE261C968CBA00A0B202 /* Text1.png in Resources */,
+				83DEBE241C968CBA00A0B202 /* Locations1.png in Resources */,
 				83DEBDF21C96857300A0B202 /* Assets.xcassets in Resources */,
+				83DEBE231C968CBA00A0B202 /* Listen1.png in Resources */,
 				83DEBDF01C96857300A0B202 /* Main.storyboard in Resources */,
+				83DEBE251C968CBA00A0B202 /* Map1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +331,54 @@
 				83DEBDF41C96857300A0B202 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		83DEBE181C968CBA00A0B202 /* Learn1.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83DEBE191C968CBA00A0B202 /* Base */,
+			);
+			name = Learn1.png;
+			sourceTree = "<group>";
+		};
+		83DEBE1A1C968CBA00A0B202 /* Listen1.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83DEBE1B1C968CBA00A0B202 /* Base */,
+			);
+			name = Listen1.png;
+			sourceTree = "<group>";
+		};
+		83DEBE1C1C968CBA00A0B202 /* Locations1.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83DEBE1D1C968CBA00A0B202 /* Base */,
+			);
+			name = Locations1.png;
+			sourceTree = "<group>";
+		};
+		83DEBE1E1C968CBA00A0B202 /* Map1.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83DEBE1F1C968CBA00A0B202 /* Base */,
+			);
+			name = Map1.png;
+			sourceTree = "<group>";
+		};
+		83DEBE201C968CBA00A0B202 /* Text1.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83DEBE211C968CBA00A0B202 /* Base */,
+			);
+			name = Text1.png;
+			sourceTree = "<group>";
+		};
+		83DEBE271C96950700A0B202 /* Audio.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83DEBE281C96950700A0B202 /* Base */,
+			);
+			name = Audio.png;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -398,6 +470,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RTH2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TDE.RTH2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +482,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RTH2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TDE.RTH2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
